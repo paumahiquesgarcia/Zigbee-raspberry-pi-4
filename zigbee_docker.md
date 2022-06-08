@@ -78,3 +78,5 @@ advanced:
  ~~~
  8. Ahora al acceder a nuestra ip con el puerto 8080 deberia aparecer la siguiente pagina:
  ![Imagen GIT](imagenes/pagina.png)
+ 
+ Y ya Habriamos instalado Zigbee2MQTT a traves de Docker
