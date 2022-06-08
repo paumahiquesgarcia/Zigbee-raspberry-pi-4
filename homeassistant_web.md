@@ -8,3 +8,7 @@
 ![Imagen GIT](imagenes/ha2.png)
 3. Esta parte es opcional, cada punto es información que podemos compartir para ayudar al desarrollo de Home Assistant, seleccionamos los que queramos y le damos a "siguiente":
 ![Imagen GIT](imagenes/ha3.png)
+4. Le damos a "TERMINAR"
+![Imagen GIT](imagenes/ha4.png)
+
+Y ya lo tendriamos configurado
