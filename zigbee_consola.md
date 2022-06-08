@@ -23,3 +23,66 @@ npm ci
 
 ## Configuración
 
+1. Abrimos el fichero de configuración
+~~~
+nano /opt/zigbee2mqtt/data/configuration.yaml
+~~~
+2. Para una configuración basica, solo tendremos que cambiar el puerto donde tengamos el adaptador
+~~~
+mqtt:
+  # MQTT base topic for Zigbee2MQTT MQTT messages
+  base_topic: zigbee2mqtt
+  # MQTT server URL
+  server: 'mqtt://localhost'
+  # MQTT server authentication, uncomment if required:
+  # user: my_user
+  # password: my_password
+
+serial:
+  # Location of the adapter (see first step of this guide)
+  port: /dev/ttyACM0
+~~~
+
+## Iniciando Zigbee2MQTT
+
+Ahora que ya lo tenemos instalado y configurado solo queda iniciarlo:
+~~~
+cd /opt/zigbee2mqtt
+npm start
+~~~
+
+## (Opcional) Arrancar Zigbee2MQTT como un servicio
+
+1. Creamos el archivo systemctl:
+~~~
+sudo nano /etc/systemd/system/zigbee2mqtt.service
+~~~
+
+2. Y Añadimos las siguientes lineas:
+~~~
+[Unit]
+Description=zigbee2mqtt
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/npm start
+WorkingDirectory=/opt/zigbee2mqtt
+StandardOutput=inherit
+# Or use StandardOutput=null if you don't want Zigbee2MQTT messages filling syslog, for more options see systemd.exec(5)
+StandardError=inherit
+Restart=always
+RestartSec=10s
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+~~~
+3. Verificamos que la configuracion funciona:
+~~~
+sudo systemctl start zigbee2mqtt
+systemctl status zigbee2mqtt.service
+~~~
+4. Una vez que lo hemos comprobado, hacemos que arranque cuando iniciemos el sistema con este comando:
+~~~
+sudo systemctl enable zigbee2mqtt.service
+~~~
