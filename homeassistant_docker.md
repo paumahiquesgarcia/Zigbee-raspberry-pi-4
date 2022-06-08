@@ -27,7 +27,7 @@ services:
 ~~~
 4. Iniciamos Home Assistant con el siguiente comando
 ~~~
-
+sudo docker-compose up -d
 ~~~
 5. Ahora podremos acceder a la instalación de Home Assistant a traves de la interfaz web introduciendo vuestra ip seguido del puerto 8123, ex: 192.168.0.10:8123, deberiamos ver esta pagina:
 ![Imagen GIT](imagenes/pagina2.png)
