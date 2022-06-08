@@ -4,6 +4,6 @@
 ~~~
 sudo dmesg
 ~~~
-En esta guia vamos a asumir que el adaptador esta montado en ttyACM0, pero puede que no sea vuestro caso.
+  En esta guia vamos a asumir que el adaptador esta montado en ttyACM0, pero puede que no sea vuestro caso.
 
 2. 
