@@ -17,9 +17,9 @@ sudo dmesg
 mkdir docker
 cd docker
 ~~~
-3. Crearemos el archivo "docker-compose.yaml" que definira como sera nuestro contenedor:
+3. Crearemos el archivo "docker-compose.yml" que definira como sera nuestro contenedor:
 ~~~
-touch docker-compose.yaml
+touch docker-compose.yml
 ~~~
 4. Ahora lo editaremos y le añadiremos las siguientes lineas:
 ~~~
@@ -74,7 +74,7 @@ advanced:
  ~~~
  7. Iniciamos docker:
  ~~~
- docker-compose up -d
+ sudo docker-compose up -d
  ~~~
  8. Ahora al acceder a nuestra ip con el puerto 8080 deberia aparecer la siguiente pagina:
  ![Imagen GIT](imagenes/pagina.png)
