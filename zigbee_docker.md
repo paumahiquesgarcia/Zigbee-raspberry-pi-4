@@ -72,5 +72,9 @@ frontend:
 advanced:
   network_key: GENERATE
  ~~~
- 7. 
- 
+ 7. Iniciamos docker:
+ ~~~
+ docker-compose up -d
+ ~~~
+ 8. Ahora al acceder a nuestra ip con el puerto 8080 deberia aparecer la siguiente pagina:
+ ![Imagen GIT](imagenes/pagina.png)
