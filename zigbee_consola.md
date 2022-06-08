@@ -20,6 +20,12 @@ sudo mv zigbee2mqtt /opt/zigbee2mqtt
 cd /opt/zigbee2mqtt
 npm ci
 ~~~
+5. Instalaremos y activaremos un servidor MQTT (nosotros instalamos mosquito pero podeis instalar vuestro favorito
+~~~
+sudo apt-get install mosquitto
+sudo systemctl start mosquitto.service
+sudo systemctl enable mosquitto.service
+~~~
 
 ## Configuración
 
@@ -50,6 +56,14 @@ Ahora que ya lo tenemos instalado y configurado solo queda iniciarlo:
 cd /opt/zigbee2mqtt
 npm start
 ~~~
+
+## Pagina web Zigbee2MQTT
+
+1. Zigbee tiene una pagina web que para iniciarla teneis que añadir la siguiente linea al archivo de configuración de Zigbee2MQTT
+~~~
+frontend: true
+~~~
+2. Para entrar a la pagina teneis que poner vuestra ip seguida del puerto 8080 ex: 192.168.0.10:8080
 
 ## (Opcional) Arrancar Zigbee2MQTT como un servicio
 
