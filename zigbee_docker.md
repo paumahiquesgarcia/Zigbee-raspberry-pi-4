@@ -8,7 +8,4 @@ Para poder seguir esta guia tenemos que tener instalados socker y docker-compose
 
 ## Instalación
 
-1. Para instalar Docker introduciremos este comando:
-~~~
-curl -sSL https://get.docker.com | sh
-~~~
+
