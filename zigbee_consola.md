@@ -5,4 +5,13 @@
 sudo dmesg
 ~~~
 
-2. 
+2. Ahora instalaremos Node.js y algunas dependencias:
+~~~
+sudo apt-get install -y nodejs npm git make g++ gcc
+~~~
+3. Clonaremos el repositorio de Zigbee2MQTT y lo moveremos:
+~~~
+git clone https://github.com/Koenkk/zigbee2mqtt.git
+sudo mv zigbee2mqtt /opt/zigbee2mqtt
+~~~
+4. 
