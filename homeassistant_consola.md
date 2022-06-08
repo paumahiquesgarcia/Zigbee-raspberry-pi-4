@@ -1,6 +1,6 @@
 # Instalar Home Assistant a traves de consola
 
-# Instalación
+## Instalación
 
 1. Instalaremos las dependencias:
 ~~~
@@ -29,3 +29,18 @@ source bin/activate
 ~~~
 python3 -m pip install wheel
 ~~~
+4. Ahora instalaremos Home Assistant Core:
+~~~
+pip3 install homeassistant
+~~~
+5. Iniciaremos Home Assistant por primera vez, esto completara la instalación automaticamente, configurandolo y instalando dependencias:
+~~~
+hass
+~~~
+6. Ahora podremos acceder a la instalación de Home Assistant a traves de la interfaz web introduciendo vuestra ip seguido del puerto 8123, ex: 192.168.0.10:8123, deberiamos ver esta pagina:
+![Imagen GIT](imagenes/pagina2.png)
+
+## Configuración
+
+Una vez instalado Home Assistant podemos seguir la siguiente guia para configurarlo:
+* [Configurar Home Assistant](homeassistant_web.md)
