@@ -1,5 +1,5 @@
 # Instalación de Docker en raspberry pi 4 B
-
+![Imagen GIT](vertical-logo-monochromatic.jpg)
 ## Instalación de Docker
 
 1. Para instalar Docker introduciremos este comando:
