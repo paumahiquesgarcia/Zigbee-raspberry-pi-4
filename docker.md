@@ -35,4 +35,9 @@ Portainer es una interfaz grafica para gestionar docker de una manera mas simple
 ~~~
 sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:linux-arm
 ~~~
-2. Para acceder a Portainer tendras que poner tu ip seguida del puerto 9000, ex: 192.168.0.10:9000, lo que nos llevara a esta pagina
+2. Para acceder a Portainer tendras que poner tu ip seguida del puerto 9000, ex: 192.168.0.10:9000, lo que nos llevara a esta pagina:
+![Imagen GIT](imagenes/port1.png)
+3. Introducimos una contraseña valida y le damos a create user
+![Imagen GIT](imagenes/port2.png)
+4. Y ya tendriamos instalada una interfaz grafica de Docker
+![Imagen GIT](imagenes/port3.png)
