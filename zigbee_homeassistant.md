@@ -18,5 +18,6 @@ Para seguir esta guia tenemos que tener instalado Home Assistant, aqui tenemos d
 5. Le daremos a "ENVIAR"
 ![Imagen GIT](imagenes/zh4.png)
 6. Indicaremos en que area tenemos el controlador y le daremos a "TERMINAR"
+![Imagen GIT](imagenes/zh5.png)
 
 Y ya tendremos configurado Zigbee en Home Assistant
