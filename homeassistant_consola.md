@@ -1,5 +1,5 @@
 # Instalar Home Assistant a traves de consola
-
+![Imagen GIT](imagenes/hac.png)
 ## Instalación
 
 1. Instalaremos las dependencias:
