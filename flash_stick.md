@@ -4,7 +4,7 @@
 
 Para poder flashear el USB CC2531 con el firmware de Zigbee seran necesarios los siguientes dispositivos
 
-* [go](http://stackoverflow.com){:target="_blank"}
+* 
 * CC2531 downloader cable
 
 ## Flash
