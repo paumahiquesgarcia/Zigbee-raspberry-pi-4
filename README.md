@@ -1,6 +1,6 @@
 # Instalar Zigbee en Raspberry Pi 4 B
 <p align="center">
-  <img width="460" height="300" src="imagenes/zl.png">
+  <img width="460" src="imagenes/zl.png">
 </p>
 
 ## ¿Qué pretende?
