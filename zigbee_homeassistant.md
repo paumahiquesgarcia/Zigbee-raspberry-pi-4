@@ -1,4 +1,5 @@
 # Configurar Zigbee a traves de Home Assistant
+![Imagen GIT](imagenes/zha.png)
 
 ## Requisitos
 
