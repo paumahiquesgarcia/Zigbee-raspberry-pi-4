@@ -64,6 +64,7 @@ npm start
 frontend: true
 ~~~
 2. Para entrar a la pagina teneis que poner vuestra ip seguida del puerto 8080 ex: 192.168.0.10:8080
+![Imagen GIT](imagenes/pagina.png)
 
 ## (Opcional) Arrancar Zigbee2MQTT como un servicio
 
