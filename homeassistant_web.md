@@ -1,5 +1,7 @@
 # Configurar Home Assistant
-![Imagen GIT](imagenes/hal.png)
+<p align="center">
+  <img src="imagenes/hal.png">
+</p>
 
 ## Configuracion
 
