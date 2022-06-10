@@ -8,7 +8,7 @@
 
 ## ¿Qué pretende?
 
-Esta es una guia para poder instalar Zigbee en una raspberry pi 4 B, os mostraremos varios metodos y podeis elegir el que mas prefirais:
+Esta es una guia para poder controlar dispositivos Zigbee mediante una raspberry pi 4 B, para ello primero necesitamos instalar Zigbee, os mostraremos varios metodos y podeis elegir el que mas prefirais:
 
 * [Instalacion de Zigbee a traves de consola](zigbee_consola.md)
 * [Instalacion de Zigbee a traves de Docker](zigbee_docker.md)
