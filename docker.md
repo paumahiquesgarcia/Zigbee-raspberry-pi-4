@@ -1,4 +1,4 @@
-# Instalación de Docker en raspberry pi 4 B
+# Instalación de Docker en una Raspberry Pi 4 B
 ![Imagen GIT](imagenes/vertical-logo-monochromatic.jpg)
 ## Instalación de Docker
 
