@@ -3,6 +3,10 @@
 
 ## Requisitos
 
+Para poder seguir esta guia necesitamos tener un USB CC2531 flasheado con el firmware de Zigbee
+
+* [Flashear USB CC2531](flash_stick.md)
+
 ## Instalación
 
 1. Primero debemos encontrar la localización del apadtador Zigbee, conectalo a la raspberry y ejecuta este comando (en esta guia vamos a asumir que el adaptador esta montado en ttyACM0, pero puede que no sea vuestro caso):
