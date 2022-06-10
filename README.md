@@ -1,6 +1,6 @@
 # Controlar dispositivos Zigbee mediante una raspberry pi
 <p align="center">
-  <img width="460" src="https://github.com/Koenkk/zigbee2mqtt">
+  <img width="460" src="https://github.com/Koenkk/zigbee2mqtt/blob/master/images/logo.png">
 </p>
 
 ## ¿Qué pretende?
