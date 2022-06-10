@@ -1,4 +1,4 @@
-# Instalar Zigbee en Raspberry Pi 4 B
+# Controlar dispositivos Zigbee mediante una raspberry pi
 <p align="center">
   <img width="460" src="imagenes/zl.png">
 </p>
