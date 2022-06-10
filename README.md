@@ -3,6 +3,9 @@
   <img width="460" src="https://github.com/Koenkk/zigbee2mqtt/blob/master/images/logo.png">
 </p>
 
+
+![image]20%(https://user-images.githubusercontent.com/43112835/173125452-5464d35a-b094-42c4-9bee-761f6115b595.png)
+
 ## ¿Qué pretende?
 
 Esta es una guia para poder instalar Zigbee en una raspberry pi 4 B, os mostraremos varios metodos y podeis elegir el que mas prefirais:
