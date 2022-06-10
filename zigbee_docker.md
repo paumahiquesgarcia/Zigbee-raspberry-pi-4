@@ -2,7 +2,7 @@
 ![Imagen GIT](imagenes/zd.png)
 ## Requisitos
 
-Para poder seguir esta guia necesitamos tener instalados Docker y docker-compose, y aparte un USB CC2531 flasheado con el firmware de Zigbee, para poder cumplir los requisitops puede seguir estas guias:
+Para poder seguir esta guia necesitamos tener instalados Docker y docker-compose, y aparte un USB CC2531 flasheado con el firmware de Zigbee, para poder cumplir los requisitos puede seguir estas guias:
 
 * [Instalacion de docker en una Raspberry Pi 4 B](docker.md)
 * [Flashear USB CC2531](flash_stick.md)
