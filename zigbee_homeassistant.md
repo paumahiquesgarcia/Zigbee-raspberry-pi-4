@@ -3,7 +3,7 @@
 
 ## Requisitos
 
-Para seguir esta guia tenemos que tener instalado Home Assistant, aqui tenemos dos guias para poder instalarlo:
+Para seguir esta guia tenemos que tener instalado Home Assistant y tener un USB CC2531 flasheado con el firmware de Zigbee, aqui tenemos guias para poder cumplir los requisitos:
 * [Instalacion de Home Assistant a traves de consola](homeassistant_consola.md)
 * [Instalacion de Home Assistant a traves de Docker](homeassistant_docker.md)
 
