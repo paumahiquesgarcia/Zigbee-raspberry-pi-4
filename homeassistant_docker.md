@@ -1,4 +1,5 @@
 # Instalar Home Assistant con Docker
+![Imagen GIT](imagenes/had.png)
 
 ## Instalación
 
