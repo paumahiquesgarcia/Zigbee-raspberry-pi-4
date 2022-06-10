@@ -4,7 +4,7 @@
 </p>
 
 
-![image]20%(https://user-images.githubusercontent.com/43112835/173125452-5464d35a-b094-42c4-9bee-761f6115b595.png)
+![image](https://user-images.githubusercontent.com/43112835/173125452-5464d35a-b094-42c4-9bee-761f6115b595.png)
 
 ## ¿Qué pretende?
 
