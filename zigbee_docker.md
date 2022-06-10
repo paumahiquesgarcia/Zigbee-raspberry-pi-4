@@ -1,10 +1,10 @@
-# Instalación de Zigbee a traves de docker
+# Instalación de Zigbee a traves de Docker
 ![Imagen GIT](imagenes/zd.png)
 ## Requisitos
 
-Para poder seguir esta guia tenemos que tener instalados socker y docker-compose, puede instalarlos siguiendo esta otra guia:
+Para poder seguir esta guia tenemos que tener instalados Docker y docker-compose, puede instalarlos siguiendo esta otra guia:
 
-[Instalacion de docker en una raspberry pi 4](docker.md)
+[Instalacion de docker en una Raspberry Pi 4 B](docker.md)
 
 ## Instalación y configuración
 
