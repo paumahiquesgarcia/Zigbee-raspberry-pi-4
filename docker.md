@@ -19,8 +19,8 @@ sudo systemctl enable docker
 
 1. Docker-Compose generalmente se instala con pip3, asi que primero lo instalaremos:
 ~~~
-sudo apt-get install libffi-dev libssl-dev
-sudo apt install python3-dev
+sudo apt-get -y install libffi-dev libssl-dev
+sudo apt -y install python3-dev
 sudo apt-get install -y python3 python3-pip
 ~~~
 2. Ahora instalaremos Docker-Compose con el siguiente comando:
