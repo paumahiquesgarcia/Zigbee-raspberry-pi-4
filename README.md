@@ -19,4 +19,4 @@ Esta es una guia para poder controlar dispositivos Zigbee mediante una raspberry
 Una vez tenemos Zigbee instalado, solo quedaria empezar a añadir dispositivos, para eso os podeis seguir una de las siguientes guias dependiendo de como haysais instalado Zigbee:
 
 * [Añadir dispositivo Zigbee en Home Assistant](dzha.md)
-* [Añadir dispositivo Zigbee en Zigbee](dzz.md)
+* [Añadir dispositivo Zigbee con Zigbee](dzz.md)
