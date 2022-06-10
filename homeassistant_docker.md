@@ -1,6 +1,12 @@
 # Instalar Home Assistant con Docker
 ![Imagen GIT](imagenes/had.png)
 
+## Requisitos
+
+Para poder seguir esta guia tenemos que tener instalados socker y docker-compose, puede instalarlos siguiendo esta otra guia:
+
+[Instalacion de docker en una raspberry pi 4](docker.md)
+
 ## Instalación
 
 1. Creamos un directorio donde ira el archivo de configuración de docker
