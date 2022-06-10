@@ -1,4 +1,5 @@
 # Configurar Home Assistant
+![Imagen GIT](imagenes/hal.png)
 
 ## Configuracion
 
